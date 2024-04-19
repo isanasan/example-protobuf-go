@@ -3,7 +3,7 @@ package tutorial;
 
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/isanasan/example-protobuf-go";
+option go_package = "github.com/isanasan/example-protobuf-go/codegen";
 
 message Person {
   string name = 1;
